@@ -348,7 +348,7 @@ export default function Index() {
                   <ul className="text-left space-y-3">
                     <li className="flex items-start">
                       <Icon name="Check" className="text-accent mr-3 mt-1 flex-shrink-0" size={20} />
-                      <span>Полноценный практикум в формате PDF/ePub</span>
+                      <span>Полноценный практикум в формате PDF</span>
                     </li>
                     <li className="flex items-start">
                       <Icon name="Check" className="text-accent mr-3 mt-1 flex-shrink-0" size={20} />
@@ -391,10 +391,7 @@ export default function Index() {
                   </Button>
                 </form>
 
-                <p className="text-sm text-muted-foreground mt-6 flex items-center justify-center">
-                  <Icon name="Shield" className="mr-2" size={16} />
-                  Гарантия возврата денег в течение 14 дней
-                </p>
+
               </CardContent>
             </Card>
           </div>
@@ -403,11 +400,11 @@ export default function Index() {
 
       <footer className="bg-secondary py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
-          <p className="mb-2">© 2024 Баня. Исконные традиции для тела и духа</p>
+          <p className="mb-2">© 2025 Баня. Исконные традиции для тела и духа</p>
           <p className="text-sm">
             По вопросам:{' '}
-            <a href="mailto:info@banya-book.ru" className="text-accent hover:underline">
-              info@banya-book.ru
+            <a href="mailto:webs42@ya.ru" className="text-accent hover:underline">
+              webs42@ya.ru
             </a>
           </p>
         </div>
