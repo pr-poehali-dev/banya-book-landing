@@ -32,12 +32,11 @@ export default function Index() {
         }}
       >
         <div className="container mx-auto px-4 text-center text-white animate-fade-in-slow">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Баня. Исконные традиции <br />для тела и духа
+          <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-wide">
+            Баня.<br />Исконные традиции<br />для тела и духа
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto font-light">
-            Откройте дверь в мир, где пар лечит, веник говорит, а жар рождает заново. <br />
-            Полное руководство от Андрея Равинских
+          <p className="text-xl md:text-2xl mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+            Откройте дверь в мир, где пар лечит,<br />веник говорит, а жар рождает заново.
           </p>
           <Button
             onClick={scrollToOrder}
