@@ -28,7 +28,7 @@ export default function Index() {
       <section
         className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(15, 25, 15, 0.5), rgba(15, 25, 15, 0.7)), url(https://cdn.poehali.dev/projects/2c5b8e43-82a3-42eb-95c3-298537649bf2/files/c3eda584-f7de-448f-b303-187f47986340.jpg)',
+          backgroundImage: 'linear-gradient(rgba(15, 25, 15, 0.5), rgba(15, 25, 15, 0.7)), url(https://cdn.poehali.dev/projects/2c5b8e43-82a3-42eb-95c3-298537649bf2/files/44fa7371-bc69-4010-8e35-f1e14db308eb.jpg)',
         }}
       >
         <div className="container mx-auto px-4 text-center text-white animate-fade-in-slow">
@@ -304,8 +304,8 @@ export default function Index() {
             <div className="grid md:grid-cols-5 gap-8 items-center">
               <div className="md:col-span-2">
                 <img
-                  src="https://cdn.poehali.dev/projects/2c5b8e43-82a3-42eb-95c3-298537649bf2/files/a4a5d2f0-1e01-4a30-adf2-c20b9247de93.jpg"
-                  alt="Андрей Равинских"
+                  src="https://cdn.poehali.dev/projects/2c5b8e43-82a3-42eb-95c3-298537649bf2/files/61c4eefb-3cab-47d9-ae44-d01c35ff2229.jpg"
+                  alt="Традиционная русская баня"
                   className="rounded-lg shadow-2xl w-full"
                 />
               </div>
