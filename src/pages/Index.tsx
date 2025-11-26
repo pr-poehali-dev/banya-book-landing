@@ -370,25 +370,23 @@ export default function Index() {
                   </div>
                 </div>
 
-                <form onSubmit={handleOrder} className="space-y-4">
-                  <div>
-                    <Input
-                      type="email"
-                      placeholder="Ваш email"
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      className="text-lg py-6"
-                      required
-                    />
-                  </div>
+                <a
+                  href="https://wa.me/79516004875?text=Здравствуйте!%20Хочу%20заказать%20книгу%20%22Баня.%20Исконные%20традиции%20для%20тела%20и%20духа%22%20за%20200₽"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
                   <Button
-                    type="submit"
                     size="lg"
-                    className="w-full bg-accent hover:bg-accent/90 text-accent-foreground text-lg py-6"
+                    className="w-full bg-[#25D366] hover:bg-[#20BD5A] text-white text-lg py-6 shadow-lg transition-all hover:scale-105 hover:shadow-xl"
                   >
-                    Купить книгу за 200 ₽ <Icon name="ArrowRight" className="ml-2" size={20} />
+                    <Icon name="MessageCircle" className="mr-3" size={24} />
+                    Заказать через WhatsApp
                   </Button>
-                </form>
+                </a>
+                <p className="text-center text-sm text-muted-foreground mt-3">
+                  Нажмите, чтобы написать нам в WhatsApp
+                </p>
 
 
               </CardContent>
